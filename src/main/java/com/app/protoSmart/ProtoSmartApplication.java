@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProtoSmartApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProtoSmartApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ProtoSmartApplication.class, args);
+    }
 
 }
