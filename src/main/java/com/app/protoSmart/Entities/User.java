@@ -16,7 +16,7 @@ import java.util.List;
 
 @Table(name = "users")
 @Entity
-public class User implements UserDetails {
+public class User extends AbstractAuditingEntity implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
